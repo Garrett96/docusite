@@ -23,14 +23,12 @@ DocuSite is a modification of MkDocs designed to deploy on Vercel that streamlin
 <br>
 5] (Optional) Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
 
-## Use Cases
+## Use Cases & Dependencies
 
-Ideal for small-to-medium businessse that just need something that works really quickly and for free. Works great for specific projects with lots of stakeholders or gritty details.
-
-## Dependencies
-
+Ideal for small-to-medium businessse that just need something that works really quickly and for free. Works great for specific projects with lots of stakeholders or gritty details. Potential use case for educators or administrative staff.
+<br><br>
 Works best if it lives on GitHub, although this isn't strictly necessary. Updates regarding security or other politices from MkDocs, Vercel, and GitHub are considerations for longevity and any security concerns.
 
-## Password protection
+## Password Protection Disclosure Statement
 
-It's not great but it works. Definitely not suitable for anything related to national security or trade secrets. It will probably keep a nosey neighbor away from your secret recepies though.
+The password protection honestly isn't great but it *does* work to guard the main contents of pages. It's definitely not suitable for anything related to national security or trade secrets. It will probably keep a nosey neighbor away from your secret recepie though.

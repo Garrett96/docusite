@@ -2,7 +2,7 @@
 
 ![logo](/img/small-banner.jpg)
 
-`Quicklink:` [Example](http://example.comg).
+`Quicklink:` [Example](http://example.com).
 
 # Standard Operating Procedures (SOP)
 

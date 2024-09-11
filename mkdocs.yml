@@ -7,7 +7,7 @@ extra_css:
   - css/custom.css
 nav:
   - Home: index.md
-  - API: page2.md
+  - Links: page2.md
   - Stakeholders: page3.md
 
 # Optional password. Please remove the '#' from each line and set "global password".

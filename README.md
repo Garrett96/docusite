@@ -67,6 +67,7 @@ git remote set-url --push upstream DISABLE
 
 A] Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
 <br>
+
 B] In `mkdocs.yml` uncomment password plugin and set a global password.
 
 ## Legal Information

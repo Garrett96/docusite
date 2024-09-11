@@ -23,6 +23,10 @@
 <br>
 6] In `mkdocs.yml` uncomment password plugin and set a global password.
 
+## Notes
+
+The `Site` directory will always be overwritten when `mkdocs build` runs. To ensure you save time and sanity, always adjust the content in the `Docs` directory; especially when adding image assets.
+
 ## Use Cases & Dependencies
 
 Ideal for small-to-medium businessse that just need something that works really quickly and for free. Works great for specific projects with lots of stakeholders or gritty details. Potential use case for educators or administrative staff.

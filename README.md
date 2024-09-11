@@ -2,10 +2,10 @@
 
 ## Bring your documentation online in minutes for free
 
-* Works right out of the box. No project file configuration required to get started.
-* No site builder required.
-* No need to download anything.
+* Only needs a browser and internet to setup.
+* No project file configuration required to get started.
 * Optional password protection for page content.
+* 100% free barring use of custom domain.
 
 <img width="1138" alt="Screen Shot 2024-09-11 at 01 43 25" src="https://github.com/user-attachments/assets/68f0f167-32e9-4e8f-b55b-5a7c0c91a00a">
 

@@ -1,0 +1,18 @@
+site_name: ValleyCentral Appliance | Docs
+theme:
+  name: mkdocs
+  favicon: img/favicon.ico
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
+  - css/custom.css
+nav:
+  - Home: index.md
+  - Locations: locations.md
+  - Brands: brands.md
+plugins:
+  - encryptcontent:
+     global_password: '1234'
+     title_prefix: '[SECURE]'
+     summary: 'Enter the password'
+     remember_password: true
+     session_duration: 60

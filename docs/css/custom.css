@@ -1,0 +1,10 @@
+body .navbar, 
+html body .navbar,
+#navbar.navbar {
+    background: #192b6d !important;
+}
+
+body .navbar .navbar-brand, 
+body .navbar .nav-link {
+    color: #FFF !important;
+}

@@ -1,8 +1,8 @@
-# Project Directory
+# Project Directory [template]
 
 ![logo](/img/small-banner.jpg)
 
-`Quicklink:` [Your_Website](https://www.mkdocs.org).
+`Quicklink:` [Main Site](https://mkdocs.org/).
 
 ## Marketing
 

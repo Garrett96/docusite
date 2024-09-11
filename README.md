@@ -8,10 +8,6 @@
 * Does not require downloading anything on your local machine.
 * Optional password protection for page content.
 
-## About
-
-DocuSite is a modification of MkDocs designed to deploy on Vercel that streamlines the setup process regardless of technical aptitude, so you can immediately jump into working on documentation content and bringing that to your team, clients, project stakeholders, and anyone adjacent that might need to see something in greater detail.
-
 ## Set Up
 
 1] Fork the repository 
@@ -23,6 +19,8 @@ DocuSite is a modification of MkDocs designed to deploy on Vercel that streamlin
 4] If the Vercel URL works, you can jump straight into editing the content right inside of GitHub. 
 <br>
 5] (Optional) Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
+<br>
+6] In `mkdocs.yml` uncomment password plugin and set a global password.
 
 ## Use Cases & Dependencies
 

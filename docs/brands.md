@@ -1,37 +1,25 @@
-# Our Brand Partnerships
+# Project Directory
 
 ![logo](/img/small-banner.jpg)
 
-`Quicklink:` [ValleyCentral Site](https://harrys48.sg-host.com/).
+`Quicklink:` [Your_Website](https://www.mkdocs.org).
 
-## Regular Brands
+## Marketing
 
-* Beaumark `contact-info`
-* BOSCH `contact-info`
-* Danby `contact-info`
-* Electrolux `contact-info`
-* General Electric `contact-info`
-* Hisense `contact-info`
-* Ikea `contact-info`
-* Kenmore `contact-info`
-* LG `contact-info`
-* Samsung `contact-info`
-* Whirlpool `contact-info`
-* Woods `contact-info`
-* Broan `contact-info`
+* Emily `contact-info`
+* James `contact-info`
+* Sarah `contact-info`
+* Michael `contact-info`
+* Jessica `contact-info`
+* David `contact-info`
+* Laura `contact-info`
 
-## Premium Brands
+## Engineering
 
-* Blomberg `contact-info`
-* Dacor `contact-info`
-* Fisher&Paykel `contact-info`
-* Jenn-Air `contact-info`
-* Marvel `contact-info`
-* Miele `contact-info`
-* GE Monogram `contact-info`
-* Thermador `contact-info`
-* Sub Zero `contact-info`
-* ULINE `contact-info`
-* Viking `contact-info`
-* Wolf `contact-info`
-* Vent A Hood `contact-info`
+* Lisa `contact-info`
+* Andrew `contact-info`
+* Matthew `contact-info`
+* Joshua `contact-info`
+* Brian `contact-info`
+* Amanda `contact-info`
+* Kevin `contact-info`

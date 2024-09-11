@@ -2,7 +2,7 @@
 
 ![logo](/img/small-banner.jpg)
 
-`Quicklink:` [Main Site](https://mkdocs.org).
+`Quicklink:` [Main Site](https://www.mkdocs.org).
 
 # Standard Operating Procedures (SOP)
 

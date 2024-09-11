@@ -4,7 +4,8 @@
 
 * Bring documentation online in minutes, for free.
 * Works right out of the box. No configurations required to get started.
-* No site builder or downloads required.
+* Does not require a site builder.
+* Does not require downloading anything on your local machine.
 * Optional password protection for page content.
 
 ## About

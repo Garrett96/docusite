@@ -2,9 +2,10 @@
 
 ## Quick and Free Online Documentation Tool
 
-* Bring documentation online in minutes, for free  
-* No site builder or software download required
-* Optional password protection
+* Bring documentation online in minutes, for free.
+* Works right out of the box. No configurations required to get started.
+* No site builder or downloads required.
+* Optional password protection for page content.
 
 ## About
 

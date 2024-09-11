@@ -17,13 +17,15 @@ The `Site` directory will always be overwritten when `mkdocs build` runs. You ne
 
 1] Fork the repository. 
 <br>
+
 2] Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to the forked repository.
 <br>
+
 3] Deploy the repository on Vercel. Check that the generated URL works.
 <br>
+
 4] Jump straight into editing the markdown files inside of GitHub.
 <br>
-
 
 ### Private Repo
 
@@ -38,7 +40,6 @@ The `Site` directory will always be overwritten when `mkdocs build` runs. You ne
 cd docusite.git 
 git push --mirror https://github.com/your-username/new-private-repo.git
 ```
-<br>
 
 4] Delete the cloned DocuSite repository since you don't need it anymore 
 ```

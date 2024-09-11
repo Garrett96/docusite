@@ -1,10 +1,12 @@
 body .navbar, 
 html body .navbar,
 #navbar.navbar {
+    /* Edit the color of the bar across the top */
     background: #192b6d !important;
 }
 
 body .navbar .navbar-brand, 
 body .navbar .nav-link {
+    /* Edit the color of the text inside bar across the top */
     color: #FFF !important;
 }

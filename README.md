@@ -1,6 +1,6 @@
 # DocuSite
 
-## MkDocs with Vercel
+## Quick and Free Online Documentation Tool
 
 * Bring documentation online in minutes, for free  
 * No download required
@@ -29,4 +29,8 @@ Ideal for small-to-medium businessse that just need something that works really 
 
 ## Dependencies
 
-DocuSite is a streamlined MkDocs deployment via Vercel. It also works best if it lives on GitHub, although this isn't strictly necessary. Updates regarding security or other politices from MkDocs, Vercel, and GitHub are considerations for longevity and any security concerns.
+Works best if it lives on GitHub, although this isn't strictly necessary. Updates regarding security or other politices from MkDocs, Vercel, and GitHub are considerations for longevity and any security concerns.
+
+## Password protection
+
+It's not great but it works. Definitely not suitable for anything related to national security or trade secrets. It will probably keep a nosey neighbor away from your secret recepies though.

@@ -1,4 +1,4 @@
-site_name: ValleyCentral Appliance | Docs
+site_name: DocuSite
 theme:
   name: mkdocs
   favicon: img/favicon.ico
@@ -7,12 +7,15 @@ extra_css:
   - css/custom.css
 nav:
   - Home: index.md
-  - Locations: locations.md
-  - Brands: brands.md
-plugins:
-  - encryptcontent:
-     global_password: '1234'
-     title_prefix: '[SECURE]'
-     summary: 'Enter the password'
-     remember_password: true
-     session_duration: 60
+  - API: page2.md
+  - Stakeholders: page3.md
+
+# Optional password. Please remove the '#' from each line and set "global password".
+
+#plugins:
+  #- encryptcontent:
+     #global_password: '1234'
+     #title_prefix: '[SECURE]'
+     #summary: 'Enter the password'
+     #remember_password: true
+     #session_duration: 60

@@ -12,18 +12,19 @@
 
 ## Set Up
 
-1] Fork the repository.
+1] Fork the repository. Ideally make the fork a private repo.
 <br>
 2] Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to the forked repository.
 <br>
-3] Deploy the repository on Vercel.
+3] Deploy the repository on Vercel. Check that the generated URL works.
 <br>
-4] If the Vercel URL works, you can jump straight into editing the content right inside of GitHub. 
+4] Jump straight into editing the content right inside of GitHub. 
 <br>
 5] (*Optional*) Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
 <br>
 6] (*Optional*) In `mkdocs.yml` uncomment password plugin and set a global password.
-
+<br>
+<br>
 The `Site` directory will always be overwritten when `mkdocs build` runs. To ensure you save time and sanity, always adjust the content in the `Docs` directory; especially when adding image assets.
 
 ## Use Cases

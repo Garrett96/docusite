@@ -27,7 +27,7 @@ The `Site` directory will always be overwritten when `mkdocs build` runs. You ne
 4] Jump straight into editing the markdown files inside of GitHub.
 <br>
 
-### Private Repo Setup (Linux & MacOS)
+### Private Repo Setup 
 
 1] On your personal Github profile, create a new empty private repository.
 <br>
@@ -62,10 +62,6 @@ git clone https://github.com/your-username/new-private-repo.git
 git remote add upstream https://github.com/original-owner/original-repository.git
 git remote set-url --push upstream DISABLE
 ```
-
-### Private Repo Setup (Windows)
-
------
 
 ### Optional Setup
 

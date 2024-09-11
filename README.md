@@ -11,7 +11,11 @@
 
 ## Set Up
 
-1] Fork the repository. Ideally make the fork a private repo.
+The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
+
+### Public Repo
+
+1] Fork the repository. 
 <br>
 2] Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to the forked repository.
 <br>
@@ -19,12 +23,44 @@
 <br>
 4] Jump straight into editing the markdown files inside of GitHub.
 <br>
-5] (*Optional*) Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
+
+
+### Private Repo
+
+1] On your personal Github profile, create a new empty private repository.
 <br>
-6] (*Optional*) In `mkdocs.yml` uncomment password plugin and set a global password.
+
+2] Clone the DocuSite repository `git clone --bare https://github.com/Garrett96/docusite/`
 <br>
+
+3] Mirror-push the cloned repository to the empty private repo created in step #1 
+```
+cd docusite.git 
+git push --mirror https://github.com/your-username/new-private-repo.git
+```
 <br>
-The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
+
+4] Delete the cloned DocuSite repository since you don't need it anymore 
+```
+cd ..
+rm -rf original-repository.git
+```
+
+5] Clone your new private repo created in Step #1 `git clone https://github.com/your-username/new-private-repo.git`
+<br>
+
+6] (*Optional*) If you would like to keep the private repository open to future downstream changes:
+```
+git remote add upstream https://github.com/original-owner/original-repository.git
+git remote set-url --push upstream DISABLE
+```
+<br>
+
+### Optional Setup
+
+A] Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
+<br>
+B] In `mkdocs.yml` uncomment password plugin and set a global password.
 
 ## Legal Information
 

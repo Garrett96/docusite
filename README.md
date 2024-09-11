@@ -17,7 +17,7 @@
 <br>
 3] Deploy the repository on Vercel. Check that the generated URL works.
 <br>
-4] Jump straight into editing the content right inside of GitHub. 
+4] Jump straight into editing the markdown files inside of GitHub.
 <br>
 5] (*Optional*) Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
 <br>

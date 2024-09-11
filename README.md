@@ -1,6 +1,6 @@
 # DocuSite
 
-## Quick and Free Online Documentation Tool
+## Documentation Site Build Tool | MkDocs with Vercel
 
 * Bring documentation online in minutes, for free.
 * Works right out of the box. No configurations required to get started.

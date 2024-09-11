@@ -24,7 +24,7 @@
 6] (*Optional*) In `mkdocs.yml` uncomment password plugin and set a global password.
 <br>
 <br>
-The `Site` directory will always be overwritten when `mkdocs build` runs. To ensure you save time and sanity, always adjust the content in the `Docs` directory; especially when adding images.
+The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
 
 ## Legal Information
 

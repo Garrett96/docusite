@@ -35,4 +35,11 @@ Works best if it lives on GitHub, although this isn't strictly necessary. Update
 
 ## Password Protection Disclosure Statement
 
-The password protection guards the main contents of pages. The option is there to keep anyone anywhere from being able to read everything, which is good enough for most use cases. It's not suitable for anything related to national security or corporate trade secrets, but it works.  
+The password protection guards the main contents of pages. The option is there to keep anyone anywhere from being able to read everything, which is good enough for most use cases. It's not suitable for anything related to national security or corporate trade secrets, but it works.
+
+## Legal Information
+
+- **DocuSite**: Licensed under the MIT License.
+- **MkDocs**: Licensed under the BSD-2-Clause License.
+- **Vercel**: [Terms of Service](https://vercel.com/legal/terms)
+

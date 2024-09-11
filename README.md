@@ -53,12 +53,11 @@ rm -rf original-repository.git
 6] Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your private repo & then deploy on Vercel.
 <br>
 
-] (*Optional*) If you would like to keep the private repository open to future downstream changes:
+7] (*Optional*) If you would like to keep the private repository open to future downstream changes:
 ```
 git remote add upstream https://github.com/original-owner/original-repository.git
 git remote set-url --push upstream DISABLE
 ```
-<br>
 
 ### Optional Setup
 

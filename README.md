@@ -18,7 +18,9 @@
 <br>
 4] If the Vercel URL works, you can jump straight into editing the content right inside of GitHub. 
 <br>
-(Optional set up)
+<br>
+### (Optional set up)
+<br>
 <br>
 5] Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
 <br>

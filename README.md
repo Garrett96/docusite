@@ -1,9 +1,8 @@
 # DocuSite
 
-## Documentation Website Build Tool || MkDocs with Vercel
+## Bring your documentation online in minutes for free || MkDocs with Vercel
 
-* Bring documentation online in minutes, for free.
-* Works right out of the box. No configuration required to get started.
+* Works right out of the box. No project file configuration required to get started.
 * No site builder required.
 * No need to download anything.
 * Optional password protection for page content.

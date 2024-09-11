@@ -32,8 +32,10 @@ The `Site` directory will always be overwritten when `mkdocs build` runs. You ne
 1] On your personal Github profile, create a new empty private repository.
 <br>
 
-2] Clone the DocuSite repository `git clone --bare https://github.com/Garrett96/docusite/`
-<br>
+2] Clone the DocuSite repository 
+```
+git clone --bare https://github.com/Garrett96/docusite/
+```
 
 3] Mirror-push the cloned repository to the empty private repo created in step #1 
 ```
@@ -47,8 +49,10 @@ cd ..
 rm -rf original-repository.git
 ```
 
-5] Clone your new private repo created in Step #1 `git clone https://github.com/your-username/new-private-repo.git`
-<br>
+5] Clone your new private repo created in Step #1 
+```
+git clone https://github.com/your-username/new-private-repo.git
+```
 
 6] Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your private repo & then deploy on Vercel.
 <br>

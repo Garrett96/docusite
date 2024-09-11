@@ -8,6 +8,8 @@
 * No need to download anything.
 * Optional password protection for page content.
 
+<img width="1138" alt="Screen Shot 2024-09-11 at 01 43 25" src="https://github.com/user-attachments/assets/68f0f167-32e9-4e8f-b55b-5a7c0c91a00a">
+
 ## Set Up
 
 1] Fork the repository.

@@ -26,14 +26,6 @@
 <br>
 The `Site` directory will always be overwritten when `mkdocs build` runs. To ensure you save time and sanity, always adjust the content in the `Docs` directory; especially when adding images.
 
-## Use Cases
-
-* small-to-medium business
-* project management
-* education
-* administrative & managerial staff
-* personal use
-
 ## Legal Information
 
 - **DocuSite**: Licensed under the MIT License.

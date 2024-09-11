@@ -3,9 +3,9 @@
 ## Documentation Website Build Tool || MkDocs with Vercel
 
 * Bring documentation online in minutes, for free.
-* Works right out of the box. No configurations required to get started.
-* Does not require a site builder.
-* Does not require downloading anything on your local machine.
+* Works right out of the box. No configuration required to get started.
+* No site builder required.
+* No need to download anything.
 * Optional password protection for page content.
 
 ## Set Up

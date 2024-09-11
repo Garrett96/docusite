@@ -9,11 +9,11 @@
 
 <img width="1138" alt="Screen Shot 2024-09-11 at 01 43 25" src="https://github.com/user-attachments/assets/68f0f167-32e9-4e8f-b55b-5a7c0c91a00a">
 
-## Set Up (Debian Instructions)
+## Instructions
 
 The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
 
-### Public Repo
+### Public Repo Setup
 
 1] Fork the repository. 
 <br>
@@ -27,7 +27,7 @@ The `Site` directory will always be overwritten when `mkdocs build` runs. You ne
 4] Jump straight into editing the markdown files inside of GitHub.
 <br>
 
-### Private Repo
+### Private Repo Setup (Linux & MacOS)
 
 1] On your personal Github profile, create a new empty private repository.
 <br>
@@ -62,6 +62,10 @@ git clone https://github.com/your-username/new-private-repo.git
 git remote add upstream https://github.com/original-owner/original-repository.git
 git remote set-url --push upstream DISABLE
 ```
+
+### Private Repo Setup (Windows)
+
+-----
 
 ### Optional Setup
 

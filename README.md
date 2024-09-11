@@ -1,6 +1,6 @@
-# DocuSite
+# DocuSite || MkDocs with Vercel
 
-## Bring your documentation online in minutes for free || MkDocs with Vercel
+## Bring your documentation online in minutes for free
 
 * Works right out of the box. No project file configuration required to get started.
 * No site builder required.

@@ -2,7 +2,7 @@
 
 ![logo](/img/small-banner.jpg)
 
-`Quicklink:` [Main Site](https://mkdocs.org/).
+`Quicklink:` [Example](http://example.com).
 
 ## Marketing
 

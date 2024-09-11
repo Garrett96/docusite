@@ -17,11 +17,9 @@
 3] Deploy the repository on Vercel.
 <br>
 4] If the Vercel URL works, you can jump straight into editing the content right inside of GitHub. 
-
-### (Optional set up)
-5] Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
+5] (*Optional*) Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
 <br>
-6] In `mkdocs.yml` uncomment password plugin and set a global password.
+6] (*Optional*) In `mkdocs.yml` uncomment password plugin and set a global password.
 
 The `Site` directory will always be overwritten when `mkdocs build` runs. To ensure you save time and sanity, always adjust the content in the `Docs` directory; especially when adding image assets.
 

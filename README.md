@@ -3,9 +3,8 @@
 ## Quick and Free Online Documentation Tool
 
 * Bring documentation online in minutes, for free  
-* No download required
+* No site builder or software download required
 * Optional password protection
-* Easily change header colors
 
 ## About
 

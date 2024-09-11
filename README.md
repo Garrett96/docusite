@@ -31,4 +31,4 @@ Works best if it lives on GitHub, although this isn't strictly necessary. Update
 
 ## Password Protection Disclosure Statement
 
-The password protection honestly isn't great but it *does* work to guard the main contents of pages. It's definitely not suitable for anything related to national security or trade secrets. It will probably keep a nosey neighbor away from your secret recepie though.
+The password protection guards the main contents of pages. The option is there to keep anyone anywhere from being able to read everything, which is good enough for most use cases. It's not suitable for anything related to national security or corporate trade secrets, but it works.  

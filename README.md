@@ -59,7 +59,7 @@ git clone https://github.com/your-username/new-private-repo.git
 
 7] (*Optional*) If you would like to keep the private repository open to future downstream changes:
 ```
-git remote add upstream https://github.com/original-owner/original-repository.git
+git remote add upstream https://github.com/Garrett96/docusite/
 git remote set-url --push upstream DISABLE
 ```
 

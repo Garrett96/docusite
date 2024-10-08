@@ -10,3 +10,8 @@ body .navbar .nav-link {
     /* Edit the color of the text inside bar across the top */
     color: #FFF !important;
 }
+
+.md-typeset table th:not(:last-child),
+.md-typeset table td:not(:last-child) {
+    border-right: 1px solid #ddd;
+}

@@ -11,7 +11,36 @@ body .navbar .nav-link {
     color: #FFF !important;
 }
 
-.md-typeset table th:not(:last-child),
-.md-typeset table td:not(:last-child) {
+/* optional table styles */
+.md-typeset__table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.md-typeset__table table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.md-typeset__table th,
+.md-typeset__table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.md-typeset__table th:not(:last-child),
+.md-typeset__table td:not(:last-child) {
     border-right: 1px solid #ddd;
+}
+
+.md-typeset__table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.md-typeset__table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
 }

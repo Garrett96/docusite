@@ -16,6 +16,7 @@ Sesame snaps tart jelly-o candy canes halvah. Tiramisu donut chupa chups fruitca
 Cupcake ipsum dolor sit amet chocolate bar halvah carrot cake donut. Caramels chocolate bar donut cookie. Halvah apple pie apple pie brownie donut cheesecake. Powder sugar plum liquorice. Jelly jelly beans candy. Brownie muffin pastry cupcake cake dessert chocolate cake.
 </p>
 
+<br>
 ### **Tables Example.**
 
 | Header1 | Header2 | Header3 |
@@ -23,9 +24,7 @@ Cupcake ipsum dolor sit amet chocolate bar halvah carrot cake donut. Caramels ch
 | Apple | Durian | Grape |
 | Banana | Eggplant | Hazelnut |
 | Carrot | Fig | Ita Palm |
-
 <br>
-
 
 ## Training Guide
 

@@ -18,7 +18,7 @@ The `Site` directory will always be overwritten when `mkdocs build` runs. You ne
 Clone the Repo (I recommend using GitHub Desktop to manage it easier)
 <br>
 
-Find the file in Github Desktop 
+Find the file in Github folder and open it, can push your changes easily that way.
 <br>
 
 In `mkdocs.yml` uncomment password plugin and set a global password if you want to.

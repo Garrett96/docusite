@@ -13,64 +13,21 @@
 
 The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
 
-### Public Repo Setup
+### Setup
 
-1] Fork the repository. 
+Clone the Repo (I recommend using GitHub Desktop to manage it easier)
 <br>
 
-2] Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to the forked repository.
+Find the file in Github Desktop 
 <br>
 
-3] Deploy the repository on Vercel. Check that the generated URL works.
+In `mkdocs.yml` uncomment password plugin and set a global password if you want to.
 <br>
 
-4] Jump straight into editing the markdown files inside of GitHub.
+Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your repo & then deploy.
 <br>
 
-### Private Repo Setup 
-
-1] On your personal Github profile, create a new empty private repository.
-<br>
-
-2] Clone the DocuSite repository 
-```
-git clone --bare https://github.com/Garrett96/docusite/
-```
-
-3] Mirror-push the cloned repository to the empty private repo created in step #1 
-```
-cd docusite.git 
-git push --mirror https://github.com/your-username/new-private-repo.git
-```
-
-4] Delete the cloned DocuSite repository since you don't need it anymore 
-```
-cd ..
-rm -rf original-repository.git
-```
-
-5] Clone your new private repo created in Step #1 
-```
-git clone https://github.com/your-username/new-private-repo.git
-```
-
-6] Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your private repo & then deploy on Vercel.
-<br>
-
-7] (*Optional*) If you would like to keep the private repository open to future downstream changes:
-```
-git remote add upstream https://github.com/Garrett96/docusite/
-git remote set-url --push upstream DISABLE
-```
-
-### Optional Setup
-
-A] Clone the Repo with GitHub Desktop and open with your preferred IDE for a more comfortable experience editing content and adding image assets.
-<br>
-
-B] In `mkdocs.yml` uncomment password plugin and set a global password.
-
-## Legal Information
+## Legal
 
 - **DocuSite**: Licensed under the MIT License.
 - **MkDocs**: Licensed under the BSD-2-Clause License.

@@ -15,7 +15,7 @@ The `Site` directory will always be overwritten when `mkdocs build` runs. You ne
 
 ### Setup
 
-Clone the Repo (I recommend using GitHub Desktop to manage it easier)
+Clone the Repo (I recommend using GitHub Desktop)
 <br>
 
 Find the file in Github folder and open it, can push your changes easily that way.

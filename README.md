@@ -27,6 +27,8 @@ In `mkdocs.yml` uncomment password plugin and set a global password if you want 
 Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your repo & then deploy.
 <br>
 
+go to the `custom.css` to change the colors at the top if you want.
+
 ## Legal
 
 - **DocuSite**: Licensed under the MIT License.

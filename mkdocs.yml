@@ -10,13 +10,11 @@ nav:
   - Links: page2.md
   - Stakeholders: page3.md
 
-# Optional password. Please remove the '#' from each line and set "global password".
-
+# Password on by default.
 plugins:
   - encryptcontent:
-     global_password: '1234'
-     summary: 'Enter the password'
+     global_password: 'password'
+     title_prefix: ''
+     summary: 'Enter your password:'
      remember_password: true
      session_duration: 60
-
-

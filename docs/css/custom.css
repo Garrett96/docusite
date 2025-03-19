@@ -11,6 +11,14 @@ body .navbar .nav-link {
     color: #FFF !important;
 }
 
+html.js-focus-visible.js body header.md-header.md-header--shadow {
+    color: #192b6d; 
+}
+
+html.js-focus-visible.js body div.md-container main.md-main div.md-main__inner.md-grid div.md-sidebar.md-sidebar--primary div.md-sidebar__scrollwrap div.md-sidebar__inner nav.md-nav.md-nav--primary ul.md-nav__list li.md-nav__item a.md-nav__link span.md-ellipsis {
+    color: #192b6d; 
+}
+
 /* table styling */
 table {
     border-collapse: collapse !important;

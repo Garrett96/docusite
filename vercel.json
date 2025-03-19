@@ -4,6 +4,6 @@
       "PYTHON_VERSION": "3.10"
     }
   },
-  "buildCommand": "/usr/local/bin/python3 -m pip install --upgrade pip && /usr/local/bin/python3 -m pip install mkdocs-material mkdocs-live-edit-plugin -r requirements.txt && /usr/local/bin/python3 -m mkdocs build && cp docs/css/custom.css site/css/",
+  "buildCommand": "pip install --upgrade pip mkdocs mkdocs-material mkdocs-live-edit-plugin -r requirements.txt && mkdocs build && cp docs/css/custom.css site/css/",
   "outputDirectory": "site"
 }

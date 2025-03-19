@@ -18,3 +18,4 @@ plugins:
      summary: 'Enter your password:'
      remember_password: true
      session_duration: 60
+  - live-edit

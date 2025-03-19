@@ -19,7 +19,7 @@ plugins:
      remember_password: true
      session_duration: 60
 
-#Need websockets proxy
+#Need free proxy
   - live-edit:
      #websockets_host: app.url.websocket.tld
      #websockets_port: ${WEBSOCKETS_PORT: }

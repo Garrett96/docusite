@@ -2,7 +2,7 @@
 
 ![logo](/img/small-banner.jpg)
 
-`Quicklink:` [Example](http://example.com).
+`Source Code:` [git repo](https://github.com/Garrett96/docusite).
 
 # Standard Operating Procedures (SOP)
 
@@ -57,6 +57,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 <br><br>
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Project Source Code
 
-[DocuSite git repo](https://github.com/Garrett96/docusite)
+
+[

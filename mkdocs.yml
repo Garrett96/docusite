@@ -19,5 +19,5 @@ plugins:
      remember_password: true
      session_duration: 60
   - live-edit:
-     websockets_host: 0.0.0.0
-     websockets_port: 9999
+     #websockets_host: 0.0.0.0
+     #websockets_port: 9999

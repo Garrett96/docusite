@@ -12,10 +12,10 @@ nav:
 
 # Optional password. Please remove the '#' from each line and set "global password".
 
-#plugins:
-  #- encryptcontent:
-     #global_password: '1234'
-     #title_prefix: '[SECURE]'
-     #summary: 'Enter the password'
-     #remember_password: true
-     #session_duration: 60
+plugins:
+  - encryptcontent:
+     global_password: '1234'
+     title_prefix: '[SECURE]'
+     summary: 'Enter the password'
+     remember_password: true
+     session_duration: 60

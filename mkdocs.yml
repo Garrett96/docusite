@@ -21,3 +21,4 @@ plugins:
   - live-edit:
      websockets_host: hostname
      websockets_port: 9999
+     debug_mode: true

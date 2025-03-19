@@ -1,16 +1,16 @@
 /* MATERIAL THEME */
 
 /* Edit the color of top bar */
-md-header {
+html.js-focus-visible.js body header.md-header.md-header--shadow {
     background-color: #192b6d !important;
-    box-shadow: 0 0 .2rem #0000,0 .2rem .4rem #0000;
-    display: block;
-    left: 0;
-    position: sticky;
-    right: 0;
-    top: 0;
-    z-index: 4;
-  }
+    box-shadow: 0 0 .2rem #0000,0 .2rem .4rem #0000 !important;
+    display: block !important;
+    left: 0 !important;
+    position: sticky !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 4 !important;
+}
 
 /* Edit the color of text in the top bar */
 html.js-focus-visible.js body header.md-header.md-header--shadow {

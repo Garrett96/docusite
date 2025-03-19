@@ -15,7 +15,23 @@ nav:
 plugins:
   - encryptcontent:
      global_password: '1234'
-     title_prefix: ''
      summary: 'Enter the password'
      remember_password: true
      session_duration: 60
+     html_template_path: "decrypt-form.tpl.html" # override default html template
+     password_button: True
+     input_class: 'w3-input' # CSS class used for input username and password
+     button_class: 'w3-button w3-theme-l1 w3-hover-theme' # CSS class for password_button
+     hljs: False
+     arithmatex: False
+     mermaid2: False
+     remember_keys: true # keys from keystore will temporarily saved to sessionStorage
+     remember_password: false # the entered credentials are not saved
+     remember_prefix: encryptcontent_plugin_ # use different prefixes if other sites are running on the same domain
+     encrypted_something: # additionally encrypt some html elements
+      #myNav: [div, id]
+      myToc: [div, id]
+      myTocButton: [div, id]
+     search_index: 'dynamically'
+     password_file: 'passwords.yml' # file with password inventory
+     threshold_warning_min_entropy: 100 # warn if password entropy is below this value

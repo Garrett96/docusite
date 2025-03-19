@@ -1,12 +1,9 @@
 /* MATERIAL THEME */
 
-
-
 /* Edit the color of top bar */
 md-header {
     background-color: #192b6d !important;
     box-shadow: 0 0 .2rem #0000,0 .2rem .4rem #0000;
-    color: var(--md-primary-bg-color);
     display: block;
     left: 0;
     position: sticky;

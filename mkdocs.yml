@@ -15,7 +15,7 @@ nav:
 plugins:
   - encryptcontent:
      global_password: '1234'
-     title_prefix: '[SECURE]'
+     title_prefix: ''
      summary: 'Enter the password'
      remember_password: true
      session_duration: 60

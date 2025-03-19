@@ -18,6 +18,8 @@ plugins:
      summary: 'Enter your password:'
      remember_password: true
      session_duration: 60
+
+#Need websockets proxy
   - live-edit:
-     #websockets_host: 0.0.0.0
-     #websockets_port: 9999
+     #websockets_host: app.url.websocket.tld
+     #websockets_port: ${WEBSOCKETS_PORT: }

@@ -8,13 +8,7 @@
 
 ## Contract Specifications
 
-<p>
-Sesame snaps tart jelly-o candy canes halvah. Tiramisu donut chupa chups fruitcake soufflé. Macaroon wafer donut candy canes bonbon pastry. Jelly beans cake cotton candy toffee pie sweet.
-</p>
-
-<p>
-Cupcake ipsum dolor sit amet chocolate bar halvah carrot cake donut. Caramels chocolate bar donut cookie. Halvah apple pie apple pie brownie donut cheesecake. Powder sugar plum liquorice. Jelly jelly beans candy. Brownie muffin pastry cupcake cake dessert chocolate cake.
-</p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <br>
 ### **Tables Example.**
@@ -28,42 +22,40 @@ Cupcake ipsum dolor sit amet chocolate bar halvah carrot cake donut. Caramels ch
 
 ## Training Guide
 
-Powder sugar plum chocolate cake dragée muffin. Gingerbread jelly-o halvah ice cream jujubes. Danish candy canes donut caramels wafer. Bonbon lemon drops gingerbread tart cotton candy.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## GAP Accounting
 
-Cupcake ipsum dolor sit amet chocolate bar halvah carrot cake donut. Caramels chocolate bar donut cookie. Halvah apple pie apple pie brownie donut cheesecake. Powder sugar plum liquorice. Jelly jelly beans candy. Brownie muffin pastry cupcake cake dessert chocolate cake.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Supply Chain Integration
 
-* Cupcake ipsum dolor.
-* Sit amet candy canes powder cotton candy.
-* Gummi bears chupa chups cotton candy halvah candy canes.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+* Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Payments Schedule
 
-* Tiramisu brownie ice cream cake. Apple pie caramels gingerbread soufflé marzipan icing. Fruitcake dragée toffee cupcake candy canes. Cheesecake chocolate cake pudding tart.
-* Macaroon wafer donut candy canes bonbon pastry. Jelly beans cake cotton candy toffee pie sweet. Halvah chocolate bar marshmallow lemon drops. Danish tart croissant cupcake chupa chups muffin.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+* Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
  
 ## Member Onboarding
 
 <p>
-Caramels tootsie roll croissant wafer cookie topping. Jelly-o gummies cake chupa chups candy canes. Marshmallow jujubes cheesecake chocolate bar sugar plum. Tiramisu halvah donut dessert soufflé marzipan.
-Cupcake chocolate bar pudding gummies lollipop. Jelly beans brownie cotton candy marshmallow cake. Tart jelly-o candy canes oat cake cookie. Sesame snaps pie cupcake candy canes toffee.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 
 <p>
-Lemon drops toffee cheesecake muffin cupcake. Wafer tart jelly-o candy canes halvah. Tiramisu donut chupa chups fruitcake soufflé.
-Macaroon candy canes croissant pudding tootsie roll. Jelly beans gummies dessert cake brownie. Halvah bonbon chocolate bar marshmallow wafer. Cookie pie cupcake caramels fruitcake.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 
 ## Vital Metrics & KPI's
 
 ![schedule-img](/img/scheduling.jpg)
 <br>
-Bonbon lemon drops gingerbread tart cotton candy. Lollipop sweet roll cake chocolate cake tootsie roll. Halvah candy canes jelly beans chocolate bar. Icing cupcake marshmallow pudding pie.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <br><br>
-Oat cake jelly beans gummies pastry dragée. Lemon drops toffee cheesecake muffin cupcake. Wafer tart jelly-o candy canes halvah. Tiramisu donut chupa chups fruitcake soufflé.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Project Source Code
 

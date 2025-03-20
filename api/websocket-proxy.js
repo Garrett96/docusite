@@ -9,8 +9,8 @@ export default async function handler(req) {
 
   const config = await getConfig(connectionString);
 
-  const websocketHost = config.WEBSOCKETS_HOST || 'wss://default-websocket.tld';
-  const websocketPort = config.WEBSOCKETS_PORT || '12345';
+  const websocketHost = config.WEBSOCKETS_HOST || 'wss://docusite-git-live-edit-garrett96s-projects.vercel.app/api/websocket-proxy';
+  const websocketPort = config.WEBSOCKETS_PORT || '9999';
 
   const websocketUrl = `${websocketHost}:${websocketPort}`;
 

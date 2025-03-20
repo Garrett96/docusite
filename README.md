@@ -7,7 +7,7 @@
 * Optional password protection for page content.
 * 100% free.
 
-<img width="1138" alt="Screen Shot 2024-09-11 at 01 43 25" src="https://github.com/user-attachments/assets/68f0f167-32e9-4e8f-b55b-5a7c0c91a00a">
+![image](https://github.com/user-attachments/assets/4ff93994-1dc2-4312-b3e6-fc638e493b18)
 
 ### Setup
 

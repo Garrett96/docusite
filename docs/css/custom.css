@@ -1,9 +1,15 @@
 /* MATERIAL THEME */
 
+:root {
+    --primary-color: #192b6d;
+    --text-color: #FFF;
+    --background-color: #ededed;
+}
+
+
 /* Top Bar */
 html.js-focus-visible.js body header.md-header.md-header--shadow {
-    /* Top Bar Color */
-    background-color: #192b6d !important;
+    background-color: var(--primary-color);
     box-shadow: 0 0 .2rem #0000,0 .2rem .4rem #0000 !important;
     display: block !important;
     left: 0 !important;
@@ -15,46 +21,43 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
 
 html.js-focus-visible.js body header.md-header.md-header--shadow {
     /* Top Bar Text Color */
-    color: #FFF; 
+    color: var(--text-color); 
 }
 
 /* Buttons */
 .md-button {
-    /* Button Color */
-    background-color: #FFF !important;
-    border-color: #192b6d !important;
-    /* Button Text Color */
-    color: #192b6d !important;
+    background-color: var(--background-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
   }
 
 .md-button:hover {
-    /* Button Color */
-    background-color: #192b6d !important;
-    border-color: #192b6d !important;
-    /* Button Text Color */
-    color: #FFF;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--text-color);
   }
 
 /* Menu */
 .md-nav--primary .md-nav__title[for="__drawer"] {
-    background-color: #192b6d !important;  
-    color: #ffffff !important;  
+    background-color: var(--primary-color) !important;  
+    color: var(--text-color) !important;  
     font-weight: 700;  
   }
 
 /* Links */
 .md-typeset a {
-    color: #192b6d !important;
+    color: var(--primary-color) !important;
     transition: color 125ms;
   }
 
 .md-typeset a:hover {
-    color: #192b6d !important;
+    color: var(--primary-color) !important;
+    filter: brightness(1.2);
   }
 
 /* Sidebar Links */
 .md-nav__link[href]:hover{
-    color: #192b6d !important;
+    color: var(--primary-color) !important;
     cursor: pointer;
   }
 

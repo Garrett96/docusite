@@ -9,7 +9,8 @@
   "outputDirectory": "site",
   "functions": {
     "api/websocket-proxy.js": {
-      "runtime": "edge"
+      "memory": 128,
+      "runtime": "nodejs16.x"
     }
   }
 }

@@ -9,6 +9,12 @@
 
 ![image](https://github.com/user-attachments/assets/4ff93994-1dc2-4312-b3e6-fc638e493b18)
 
+### Requirements to use
+
+* GitHub Account
+* Vercel Account
+* Working knowledge of Markdown
+
 ### Setup
 
 * Clone the Repo (I recommend using GitHub Desktop)

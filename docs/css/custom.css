@@ -59,9 +59,9 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
   }
 
 /* Sidebar Links */
-.scrollbar-color{
+.md-nav--primary .md-nav__item--active > .md-nav__link {
     color: var(--primary-color) !important;
-} 
+  }
 
 .md-nav__link[href]:hover{
     color: var(--link-color) !important;

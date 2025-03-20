@@ -1,5 +1,6 @@
 /* MATERIAL THEME */
 
+/* Top Bar */
 html.js-focus-visible.js body header.md-header.md-header--shadow {
     /* Top Bar Color */
     background-color: #192b6d !important;
@@ -17,6 +18,7 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
     color: #FFF; 
 }
 
+/* Buttons */
 .md-button {
     /* Button Color */
     background-color: #FFF !important;
@@ -30,14 +32,30 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
     background-color: #192b6d !important;
     border-color: #192b6d !important;
     /* Button Text Color */
-    color: var(--md-accent-bg-color);
+    color: #FFF;
   }
 
+/* Menu */
 .md-nav--primary .md-nav__title[for="__drawer"] {
-    /* Menu Color */
     background-color: #192b6d !important;  
     color: #ffffff !important;  
     font-weight: 700;  
+  }
+
+/* Links */
+.md-typeset a {
+    color: #192b6d !important;
+    transition: color 125ms;
+  }
+
+.md-typeset a:hover {
+    color: #192b6d !important;
+  }
+
+/* Sidebar Links */
+.md-nav__link[href]:hover{
+    color: #192b6d !important;
+    cursor: pointer;
   }
 
 

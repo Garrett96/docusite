@@ -1,35 +1,16 @@
-import { getConfig } from '@vercel/edge';
-import WebSocket from 'ws';  
+import { getConfig } from '@vercel/edge-config';
 
 export default async function handler(req) {
-  const config = await getConfig();
+  const connectionString = process.env.EDGE_CONFIG_CONNECTION_STRING;
   
-  const websocketHost = config.WEBSOCKETS_HOST || 'wss://app.url.websocket.tld';
-  const websocketPort = config.WEBSOCKETS_PORT || '12345'; 
-  
-  const websocketUrl = `${websocketHost}:${websocketPort}`;
+  const config = await getConfig(connectionString);
+
+  const websocketHost = config.WEBSOCKETS_HOST || 'wss://default-websocket.tld';
+  const websocketPort = config.WEBSOCKETS_PORT || '12345';
 
   if (req.headers.get('Upgrade') === 'websocket') {
-    const ws = new WebSocket(websocketUrl);
-
-    ws.on('open', () => {
-      console.log('WebSocket connection established');
-      req.write('WebSocket proxy established');
-    });
-
-    req.on('data', (data) => {
-      ws.send(data); 
-    });
-
-    ws.on('message', (data) => {
-      req.write(data);
-    });
-
-    req.on('close', () => {
-      ws.close();
-    });
-
-    return new Response('WebSocket proxy established');
+    const websocketUrl = `${websocketHost}:${websocketPort}`;
+    return new Response(`Proxying WebSocket to: ${websocketUrl}`);
   } else {
     return new Response('Upgrade required for WebSocket', { status: 400 });
   }

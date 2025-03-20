@@ -8,11 +8,10 @@
   "outputDirectory": "site",
   "functions": {
     "api/websocket-proxy.js": {
-      "runtime": "edge@1.0.0"
+      "runtime": "edge"
     }
   },
   "env": {
-    "WEBSOCKETS_HOST": "https://docusite-git-live-edit-garrett96s-projects.vercel.app/",
-    "WEBSOCKETS_PORT": "9999"
+    "EDGE_CONFIG_CONNECTION_STRING": "vercel-edge-config://docusite/d831a868-53cc-44a8-a454-194c2231ec9f"
   }
 }

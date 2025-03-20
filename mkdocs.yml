@@ -19,7 +19,6 @@ plugins:
      remember_password: true
      session_duration: 60
 
-#Need free proxy
   - live-edit:
-     #websockets_host: app.url.websocket.tld
-     #websockets_port: ${WEBSOCKETS_PORT: }
+     websockets_host: wss://docusite-git-live-edit-garrett96s-projects.vercel.app/api/websocket-proxy
+     websockets_port: 9999

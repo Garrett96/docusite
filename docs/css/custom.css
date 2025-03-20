@@ -17,10 +17,19 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
     color: #FFF; 
 }
 
+md-button {
+    /* Button Color */
+    background-color: #FFF !important;
+    border-color: #192b6d !important;
+    /* Button Text Color */
+    color: #192b6d !important;
+  }
+
 .md-button:hover {
     /* Button Color */
     background-color: #192b6d !important;
     border-color: #192b6d !important;
+    /* Button Text Color */
     color: var(--md-accent-bg-color);
   }
 

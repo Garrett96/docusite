@@ -6,7 +6,7 @@ title: DocuSite Template
 
 ![banner](/img/small-banner.jpg)
 
-[Subscribe to our newsletter](#){ .md-button }
+[Contact Us](#){ .md-button } [FAQ](#){ .md-button }
 
 # Standard Operating Procedures (SOP)
 

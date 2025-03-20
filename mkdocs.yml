@@ -20,5 +20,5 @@ plugins:
      session_duration: 60
 
   - live-edit:
-     websockets_host: wss://docusite-git-live-edit-garrett96s-projects.vercel.app/api/websocket-proxy
+     websockets_host: wss://docusite-git-live-edit-garrett96s-projects.vercel.app/api/websocket-proxy.js
      websockets_port: 9999

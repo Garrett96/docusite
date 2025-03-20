@@ -10,10 +10,10 @@ export default async function handler(req) {
 
     const config = await getConfig(connectionString);
 
-    const websocketHost = config.WEBSOCKETS_HOST || 'docusite-git-live-edit-garrett96s-projects.vercel.app';
+    const websocketHost = config.WEBSOCKETS_HOST || 'docusite-git-live-edit-garrett96s-projects.vercel.app:9999';
     const websocketPort = config.WEBSOCKETS_PORT || '9999';
 
-    const websocketUrl = `wss://${websocketHost}:${websocketPort}`;
+    const websocketUrl = `wss://${websocketHost}`;
 
     if (req.headers.get('Upgrade') === 'websocket') {
       return new Response(`Proxying WebSocket to: ${websocketUrl}`, { status: 101 });

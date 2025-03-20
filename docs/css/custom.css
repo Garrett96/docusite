@@ -68,6 +68,14 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
     cursor: pointer;
   }
 
+/* Bottom Bar */
+.md-footer-meta {
+    background-color: #fff;
+  }
+
+  md-copyright {
+    color: #838383;
+  }
 
 /* Table Styling */
 table {

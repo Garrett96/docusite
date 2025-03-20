@@ -6,7 +6,7 @@
     --primary-color: #192b6d;
     --text-color: #FFF;
     --background-color: #ededed;
-    --link-color: #7083ff;
+    --link-color: #709afe;
 }
 
 
@@ -29,13 +29,13 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
 
 /* Buttons */
 .md-button {
-    background-color: var(--background-color) !important;
+    background-color: var(--text-color) !important;
     border-color: var(--primary-color) !important;
     color: var(--primary-color) !important;
   }
 
 .md-button:hover {
-    background-color: var(--text-color) !important;
+    background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
     color: var(--text-color) !important;
   }

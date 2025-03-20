@@ -1,8 +1,18 @@
 /* MATERIAL THEME */
 
-/* Edit the color of top bar */
+
+/* Edit your colors here! */
+:root {
+    --primary-color: #192b6d;
+    --text-color: #FFF;
+    --background-color: #ededed;
+    --link-color: #709afe;
+}
+
+
+/* Top Bar */
 html.js-focus-visible.js body header.md-header.md-header--shadow {
-    background-color: #192b6d !important;
+    background-color: var(--primary-color);
     box-shadow: 0 0 .2rem #0000,0 .2rem .4rem #0000 !important;
     display: block !important;
     left: 0 !important;
@@ -12,30 +22,62 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
     z-index: 4 !important;
 }
 
-/* Edit the color of text in the top bar */
 html.js-focus-visible.js body header.md-header.md-header--shadow {
-    color: #FFF; 
+    /* Top Bar Text Color */
+    color: var(--text-color); 
 }
 
-/* Edit colors in drawer */
+/* Buttons */
+.md-button {
+    background-color: var(--text-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+  }
+
+.md-button:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+  }
+
+/* Menu */
 .md-nav--primary .md-nav__title[for="__drawer"] {
-    background-color: #192b6d !important;  
-    color: #ffffff !important;  
+    background-color: var(--primary-color) !important;  
+    color: var(--text-color) !important;  
     font-weight: 700;  
   }
 
-  /* 
-Logo replacement
-
-.md-header__button.md-logo {
-    background-image: url('img/my.svg') !important;  
-    background-size: contain;  
-    background-repeat: no-repeat;
-    background-position: center;  
+/* Links */
+.md-typeset a {
+    color: var(--primary-color) !important;
+    transition: color 125ms;
   }
-*/ 
 
-/* table styling */
+.md-typeset a:hover {
+    color: var(--link-color) !important;
+    filter: brightness(1.2);
+  }
+
+/* Sidebar Links */
+.md-nav--primary .md-nav__item--active > .md-nav__link {
+    color: var(--primary-color) !important;
+  }
+
+.md-nav__link[href]:hover{
+    color: var(--link-color) !important;
+    cursor: pointer;
+  }
+
+/* Bottom Bar */
+.md-footer-meta {
+    background-color: #fff !important;
+  }
+
+.md-copyright {
+    color: #838383 !important;
+  }
+
+/* Table Styling */
 table {
     border-collapse: collapse !important;
     width: 100% !important;
@@ -61,6 +103,7 @@ table th {
 table tr:nth-child(even) {
     background-color: #f9f9f9 !important;
 }
+
 
 /* MKDOCS THEME */
 body .navbar, 

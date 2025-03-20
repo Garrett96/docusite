@@ -8,7 +8,7 @@ extra_css:
 nav:
   - Home: index.md
   - Links: page2.md
-  - Stakeholders: page3.md
+  - Team: page3.md
 
 # Password on by default.
 plugins:
@@ -19,7 +19,5 @@ plugins:
      remember_password: true
      session_duration: 60
 
-#Need free proxy
-  - live-edit:
-     #websockets_host: app.url.websocket.tld
-     #websockets_port: ${WEBSOCKETS_PORT: }
+markdown_extensions:
+  - attr_list

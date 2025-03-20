@@ -12,7 +12,7 @@
     }
   },
   "env": {
-    "WEBSOCKETS_HOST": "wss://app.url.websocket.tld",
+    "WEBSOCKETS_HOST": "https://docusite-git-live-edit-garrett96s-projects.vercel.app/",
     "WEBSOCKETS_PORT": "9999"
   }
 }

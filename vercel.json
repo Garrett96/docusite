@@ -5,5 +5,14 @@
     }
   },
   "buildCommand": "/usr/local/bin/python3 -m pip install --upgrade pip && /usr/local/bin/python3 -m pip install mkdocs mkdocs-material mkdocs-live-edit-plugin -r requirements.txt && /usr/local/bin/python3 -m mkdocs build && cp docs/css/custom.css site/css/",
-  "outputDirectory": "site"
+  "outputDirectory": "site",
+  "functions": {
+    "api/websocket-proxy.js": {
+      "runtime": "edge"
+    }
+  },
+  "env": {
+    "WEBSOCKETS_HOST": "wss://app.url.websocket.tld",
+    "WEBSOCKETS_PORT": "9999"
+  }
 }

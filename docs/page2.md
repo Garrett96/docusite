@@ -2,9 +2,9 @@
 title: Page2 
 ---
 
-# Page2 template
+# Page2 Template
 
-![logo](/img/small-banner.jpg)
+![banner](/img/small-banner.jpg)
 
 ## Bill Pay
 

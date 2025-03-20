@@ -2,9 +2,9 @@
 title: Page3 
 ---
 
-# Page3 template
+# Page3 Template
 
-![logo](/img/small-banner.jpg)
+![banner](/img/small-banner.jpg)
 
 ## Marketing
 

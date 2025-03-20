@@ -4,12 +4,7 @@ title: DocuSite Template
 
 # DocuSite Template
 
-![logo](/img/small-banner.jpg)
-
----
-icon: material/emoticon-happy 
-
----
+![banner](/img/small-banner.jpg)
 
 `Source Code:` [Git repo](https://github.com/Garrett96/docusite).
 

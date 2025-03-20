@@ -6,8 +6,6 @@ title: DocuSite Template
 
 ![banner](/img/small-banner.jpg)
 
-`Source Code:` [Git repo](https://github.com/Garrett96/docusite).
-
 # Standard Operating Procedures (SOP)
 
 ## Contract Specifications
@@ -60,3 +58,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <br><br>
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+`Source Code:` [Git repo](https://github.com/Garrett96/docusite).

@@ -5,7 +5,7 @@
       "EDGE_CONFIG_CONNECTION_STRING": "vercel-edge-config://docusite/d831a868-53cc-44a8-a454-194c2231ec9f"
     }
   },
-  "buildCommand": "/usr/local/bin/python3 -m pip install --upgrade pip && /usr/local/bin/python3 -m pip install --no-deps mkdocs mkdocs-material mkdocs-encryptcontent-plugin mkdocs-live-edit-plugin -r requirements.txt && /usr/local/bin/python3 -m mkdocs build && cp docs/css/custom.css site/css/",
+  "buildCommand": "/usr/local/bin/python3 -m pip install --upgrade pip && /usr/local/bin/python3 -m pip install --no-deps mkdocs mkdocs-material -r requirements.txt && /usr/local/bin/python3 -m mkdocs build && cp docs/css/custom.css site/css/",
   "outputDirectory": "site",
   "functions": {
     "api/websocket-proxy.js": {

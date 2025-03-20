@@ -4,6 +4,7 @@
     --primary-color: #192b6d;
     --text-color: #FFF;
     --background-color: #ededed;
+    --link-color: #70a5ff;
 }
 
 
@@ -34,7 +35,7 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
 .md-button:hover {
     background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
-    color: var(--text-color);
+    color: var(--text-color) !important;
   }
 
 /* Menu */
@@ -46,18 +47,18 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
 
 /* Links */
 .md-typeset a {
-    color: var(--primary-color) !important;
+    color: var(--link-color) !important;
     transition: color 125ms;
   }
 
 .md-typeset a:hover {
-    color: var(--primary-color) !important;
-    filter: brightness(1.2);
+    color: var(--link-color) !important;
+    filter: brightness(2.5);
   }
 
 /* Sidebar Links */
 .md-nav__link[href]:hover{
-    color: var(--primary-color) !important;
+    color: var(--link-color) !important;
     cursor: pointer;
   }
 

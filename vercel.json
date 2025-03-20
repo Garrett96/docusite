@@ -9,7 +9,7 @@
   "outputDirectory": "site",
   "functions": {
     "api/websocket-proxy.js": {
-      "runtime": "nodejs@16.0.0"
+      "runtime": "vercel-edge@1.0.0"
     }
   }
 }

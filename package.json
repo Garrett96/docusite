@@ -2,7 +2,8 @@
     "name": "docusite",
     "version": "1.0.0",
     "dependencies": {
-      "@vercel/edge-config": "^1.0.0"
+      "@vercel/edge-config": "^1.0.0",
+      "@vercel/node": "^20.0.0"
     }
   }
   

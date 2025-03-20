@@ -1,17 +1,36 @@
 import { getConfig } from '@vercel/edge-config';
 
 export default async function handler(req) {
+  if (req.headers.get('Upgrade') !== 'websocket') {
+    return new Response('Upgrade required for WebSocket', { status: 400 });
+  }
+
   const connectionString = process.env.EDGE_CONFIG_CONNECTION_STRING;
-  
+
   const config = await getConfig(connectionString);
 
   const websocketHost = config.WEBSOCKETS_HOST || 'wss://default-websocket.tld';
   const websocketPort = config.WEBSOCKETS_PORT || '12345';
 
-  if (req.headers.get('Upgrade') === 'websocket') {
-    const websocketUrl = `${websocketHost}:${websocketPort}`;
-    return new Response(`Proxying WebSocket to: ${websocketUrl}`);
+  const websocketUrl = `${websocketHost}:${websocketPort}`;
+
+  console.log(`Proxying WebSocket to: ${websocketUrl}`);
+
+  const websocketConnection = await fetch(websocketUrl, {
+    method: 'CONNECT', 
+    headers: req.headers,
+  });
+
+  if (websocketConnection.ok) {
+    return new Response(null, {
+      status: 101, 
+      statusText: 'Switching Protocols',
+      headers: {
+        'Upgrade': 'websocket',
+        'Connection': 'Upgrade',
+      },
+    });
   } else {
-    return new Response('Upgrade required for WebSocket', { status: 400 });
+    return new Response('Failed to establish WebSocket connection', { status: 500 });
   }
 }

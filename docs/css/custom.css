@@ -1,5 +1,7 @@
 /* MATERIAL THEME */
 
+
+/* Edit your colors here! */
 :root {
     --primary-color: #192b6d;
     --text-color: #FFF;
@@ -53,7 +55,7 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
 
 .md-typeset a:hover {
     color: var(--link-color) !important;
-    filter: brightness(2.5);
+    filter: brightness(1.2);
   }
 
 /* Sidebar Links */

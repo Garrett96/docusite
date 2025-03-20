@@ -1,4 +1,4 @@
-# Links [template]
+# Page2 template
 
 ![logo](/img/small-banner.jpg)
 

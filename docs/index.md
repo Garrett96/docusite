@@ -2,7 +2,7 @@
 
 ![logo](/img/small-banner.jpg)
 
-`Source Code:` [git repo](https://github.com/Garrett96/docusite).
+`Source Code:` [Git repo](https://github.com/Garrett96/docusite).
 
 # Standard Operating Procedures (SOP)
 

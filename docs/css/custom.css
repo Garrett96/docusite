@@ -49,7 +49,7 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
 
 /* Links */
 .md-typeset a {
-    color: var(--link-color) !important;
+    color: var(--primary-color) !important;
     transition: color 125ms;
   }
 
@@ -59,6 +59,10 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
   }
 
 /* Sidebar Links */
+.scrollbar-color{
+    color: var(--primary-color) !important;
+} 
+
 .md-nav__link[href]:hover{
     color: var(--link-color) !important;
     cursor: pointer;

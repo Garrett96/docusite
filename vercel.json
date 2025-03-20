@@ -13,5 +13,6 @@
   },
   "env": {
     "EDGE_CONFIG_CONNECTION_STRING": "vercel-edge-config://docusite/d831a868-53cc-44a8-a454-194c2231ec9f"
-  }
+  },
+  "nodeVersion": "18.x"
 }

@@ -1,15 +1,39 @@
-body .navbar, 
-html body .navbar,
-#navbar.navbar {
-    /* Edit the color of the bar across the top */
-    background: #192b6d !important;
+/* MATERIAL THEME */
+
+/* Edit the color of top bar */
+html.js-focus-visible.js body header.md-header.md-header--shadow {
+    background-color: #192b6d !important;
+    box-shadow: 0 0 .2rem #0000,0 .2rem .4rem #0000 !important;
+    display: block !important;
+    left: 0 !important;
+    position: sticky !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 4 !important;
 }
 
-body .navbar .navbar-brand, 
-body .navbar .nav-link {
-    /* Edit the color of the text inside bar across the top */
-    color: #FFF !important;
+/* Edit the color of text in the top bar */
+html.js-focus-visible.js body header.md-header.md-header--shadow {
+    color: #FFF; 
 }
+
+/* Edit colors in drawer */
+.md-nav--primary .md-nav__title[for="__drawer"] {
+    background-color: #192b6d !important;  
+    color: #ffffff !important;  
+    font-weight: 700;  
+  }
+
+  /* 
+Logo replacement
+
+.md-header__button.md-logo {
+    background-image: url('img/my.svg') !important;  
+    background-size: contain;  
+    background-repeat: no-repeat;
+    background-position: center;  
+  }
+*/ 
 
 /* table styling */
 table {
@@ -36,4 +60,18 @@ table th {
 
 table tr:nth-child(even) {
     background-color: #f9f9f9 !important;
+}
+
+/* MKDOCS THEME */
+body .navbar, 
+html body .navbar,
+#navbar.navbar {
+    /* Edit the color of the bar across the top */
+    background: #192b6d !important;
+}
+
+body .navbar .navbar-brand, 
+body .navbar .nav-link {
+    /* Edit the color of the text inside bar across the top */
+    color: #FFF !important;
 }

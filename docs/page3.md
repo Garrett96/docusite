@@ -1,8 +1,10 @@
-# Project Directory [template]
+---
+title: Page3 
+---
 
-![logo](/img/small-banner.jpg)
+# Page3 Template
 
-`Quicklink:` [Example](http://example.com).
+![banner](/img/small-banner.jpg)
 
 ## Marketing
 

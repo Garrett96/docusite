@@ -1,6 +1,6 @@
 site_name: DocuSite
 theme:
-  name: mkdocs
+  name: material
   favicon: img/favicon.ico
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
@@ -10,12 +10,16 @@ nav:
   - Links: page2.md
   - Stakeholders: page3.md
 
-# Optional password. Please remove the '#' from each line and set "global password".
+# Password on by default.
+plugins:
+  - encryptcontent:
+     global_password: 'password'
+     title_prefix: ''
+     summary: 'Enter your password:'
+     remember_password: true
+     session_duration: 60
 
-#plugins:
-  #- encryptcontent:
-     #global_password: '1234'
-     #title_prefix: '[SECURE]'
-     #summary: 'Enter the password'
-     #remember_password: true
-     #session_duration: 60
+#Need free proxy
+  - live-edit:
+     #websockets_host: app.url.websocket.tld
+     #websockets_port: ${WEBSOCKETS_PORT: }

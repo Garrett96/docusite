@@ -1,4 +1,4 @@
-# DocuSite || MkDocs with Vercel
+# DocuSite
 
 ## Bring your documentation online in minutes for free
 
@@ -7,27 +7,17 @@
 * Optional password protection for page content.
 * 100% free.
 
-<img width="1138" alt="Screen Shot 2024-09-11 at 01 43 25" src="https://github.com/user-attachments/assets/68f0f167-32e9-4e8f-b55b-5a7c0c91a00a">
-
-## Instructions
-
-The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
+![image](https://github.com/user-attachments/assets/4ff93994-1dc2-4312-b3e6-fc638e493b18)
 
 ### Setup
 
-Clone the Repo (I recommend using GitHub Desktop)
-<br>
+* Clone the Repo (I recommend using GitHub Desktop)
+* Find the file in Github folder and open it, can push your changes easily that way.
+* Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your repo & then deploy.
+* Passwords are on by default but can be turned off in `mkdocs.yml`
+* Adjust the colors in `custom.css`.
 
-Find the file in Github folder and open it, can push your changes easily that way.
-<br>
-
-In `mkdocs.yml` uncomment password plugin and set a global password if you want to.
-<br>
-
-Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your repo & then deploy.
-<br>
-
-go to the `custom.css` to change the colors at the top if you want.
+Note: The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
 
 ## Legal
 

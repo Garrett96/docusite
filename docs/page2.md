@@ -1,8 +1,10 @@
-# Links [template]
+---
+title: Page2 
+---
 
-![logo](/img/small-banner.jpg)
+# Page2 Template
 
-`Quicklink:` [Example](http://example.com).
+![banner](/img/small-banner.jpg)
 
 ## Bill Pay
 

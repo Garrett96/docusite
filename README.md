@@ -16,7 +16,7 @@
 * Sign into [Vercel](https://vercel.com) with your GitHub account. Add vercel permissions to your repo & then deploy.
 * Passwords are on by default but can be turned off in `mkdocs.yml`
 * Adjust the colors in `custom.css`.
-* Page editing is currently markdown-only in an editor of your choice.
+* Page editing is currently in raw markdown in an editor of your choice.
 
 Note: The `Site` directory will always be overwritten when `mkdocs build` runs. You never need to touch that file.
 

@@ -10,7 +10,7 @@
   "functions": {
     "api/websocket-proxy.js": {
       "memory": 128,
-      "runtime": "nodejs16.x"
+      "runtime": "@vercel/edge@1.0.0"
     }
   }
 }

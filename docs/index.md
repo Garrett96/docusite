@@ -1,4 +1,6 @@
-# DocuSite Template
+---
+title: DocuSite Template 
+---
 
 ![logo](/img/small-banner.jpg)
 

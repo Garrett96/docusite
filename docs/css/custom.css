@@ -70,11 +70,11 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
 
 /* Bottom Bar */
 .md-footer-meta {
-    background-color: #fff;
+    background-color: #fff !important;
   }
 
-  md-copyright {
-    color: #838383;
+.md-copyright {
+    color: #838383 !important;
   }
 
 /* Table Styling */

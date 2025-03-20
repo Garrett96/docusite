@@ -2,8 +2,6 @@
 
 ![logo](/img/small-banner.jpg)
 
-`Quicklink:` [Example](http://example.com).
-
 ## Bill Pay
 
 * [Bank of America](https://www.bankofamerica.com)

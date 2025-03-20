@@ -1,7 +1,7 @@
 /* MATERIAL THEME */
 
-/* Edit the color of top bar */
 html.js-focus-visible.js body header.md-header.md-header--shadow {
+    /* Top Bar Color */
     background-color: #192b6d !important;
     box-shadow: 0 0 .2rem #0000,0 .2rem .4rem #0000 !important;
     display: block !important;
@@ -12,30 +12,27 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
     z-index: 4 !important;
 }
 
-/* Edit the color of text in the top bar */
 html.js-focus-visible.js body header.md-header.md-header--shadow {
+    /* Top Bar Text Color */
     color: #FFF; 
 }
 
-/* Edit colors in drawer */
+.md-button:hover {
+    /* Button Color */
+    background-color: #192b6d !important;
+    border-color: #192b6d !important;
+    color: var(--md-accent-bg-color);
+  }
+
 .md-nav--primary .md-nav__title[for="__drawer"] {
+    /* Menu Color */
     background-color: #192b6d !important;  
     color: #ffffff !important;  
     font-weight: 700;  
   }
 
-  /* 
-Logo replacement
 
-.md-header__button.md-logo {
-    background-image: url('img/my.svg') !important;  
-    background-size: contain;  
-    background-repeat: no-repeat;
-    background-position: center;  
-  }
-*/ 
-
-/* table styling */
+/* Table Styling */
 table {
     border-collapse: collapse !important;
     width: 100% !important;
@@ -61,6 +58,7 @@ table th {
 table tr:nth-child(even) {
     background-color: #f9f9f9 !important;
 }
+
 
 /* MKDOCS THEME */
 body .navbar, 

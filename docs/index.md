@@ -6,6 +6,8 @@ title: DocuSite Template
 
 ![banner](/img/small-banner.jpg)
 
+[Subscribe to our newsletter](#){ .md-button }
+
 # Standard Operating Procedures (SOP)
 
 ## Contract Specifications

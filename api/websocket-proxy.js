@@ -1,17 +1,27 @@
 import { getConfig } from '@vercel/edge-config';
 
 export default async function handler(req) {
-  const connectionString = process.env.EDGE_CONFIG_CONNECTION_STRING;
+  try {
+    const connectionString = process.env.EDGE_CONFIG_CONNECTION_STRING;
 
-  const config = await getConfig(connectionString);
+    if (!connectionString) {
+      return new Response('EDGE_CONFIG_CONNECTION_STRING is missing.', { status: 500 });
+    }
 
-  const websocketHost = config.WEBSOCKETS_HOST || 'wss://docusite-git-live-edit-garrett96s-projects.vercel.app';
-  const websocketPort = config.WEBSOCKETS_PORT || '9999';
+    const config = await getConfig(connectionString);
 
-  if (req.headers.get('Upgrade') === 'websocket') {
-    const websocketUrl = `${websocketHost}:${websocketPort}`;
-    return new Response(`Proxying WebSocket to: ${websocketUrl}`);
-  } else {
-    return new Response('Upgrade required for WebSocket', { status: 400 });
+    const websocketHost = config.WEBSOCKETS_HOST || 'docusite-git-live-edit-garrett96s-projects.vercel.app';
+    const websocketPort = config.WEBSOCKETS_PORT || '9999';
+
+    const websocketUrl = `wss://${websocketHost}:${websocketPort}`;
+
+    if (req.headers.get('Upgrade') === 'websocket') {
+      return new Response(`Proxying WebSocket to: ${websocketUrl}`, { status: 101 });
+    } else {
+      return new Response('Upgrade required for WebSocket', { status: 400 });
+    }
+  } catch (error) {
+    console.error(error);
+    return new Response('Internal Server Error', { status: 500 });
   }
 }

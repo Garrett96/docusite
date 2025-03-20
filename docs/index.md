@@ -8,6 +8,7 @@ title: DocuSite Template
 
 ---
 icon: material/emoticon-happy 
+
 ---
 
 `Source Code:` [Git repo](https://github.com/Garrett96/docusite).

@@ -1,3 +1,7 @@
+---
+title: Page2 
+---
+
 # Page2 template
 
 ![logo](/img/small-banner.jpg)

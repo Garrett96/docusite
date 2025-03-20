@@ -1,3 +1,7 @@
+---
+title: Page3 
+---
+
 # Page3 template
 
 ![logo](/img/small-banner.jpg)

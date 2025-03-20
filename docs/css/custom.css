@@ -17,7 +17,7 @@ html.js-focus-visible.js body header.md-header.md-header--shadow {
     color: #FFF; 
 }
 
-md-button {
+.md-button {
     /* Button Color */
     background-color: #FFF !important;
     border-color: #192b6d !important;

@@ -1,9 +1,5 @@
 {
-  "build": {
-    "env": {
-      "PYTHON_VERSION": "3.10"
-    }
-  },
-  "buildCommand": "/usr/local/bin/python3 -m pip install --upgrade pip && /usr/local/bin/python3 -m pip install mkdocs mkdocs-material -r requirements.txt && /usr/local/bin/python3 -m mkdocs build && cp docs/css/custom.css site/css/",
+  "installCommand": "pip3 install --break-system-packages -r requirements.txt",
+  "buildCommand": "python3 -m mkdocs build",
   "outputDirectory": "site"
 }
